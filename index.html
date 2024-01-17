@@ -5,26 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Miraj Travels</title>
     <link rel="stylesheet" href="./assets/style.css" />
+    <script src="https://kit.fontawesome.com/ef50f363dc.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1>Miraj Travels</h1>
-    <nav>
-      <ul>
-        Home
-      </ul>
-      <ul>
-        Packages
-      </ul>
-      <ul>
-        Testimonial
-      </ul>
-      <ul>
-        Blog
-      </ul>
-      <ul>
-        Contact
-      </ul>
-    </nav>
+    <header>
+      <div class="headerSec">
+        <img src="./assets/Images/Group 40071 (2).png" style="width: 5%;" alt="">
+        <h1>Miraj <span style="color: orangered;">Travels</span></h1>
+      </div>
+      <div class="hamburger">&#9778;</div>
+      <div class="navSec">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Packages</a></li>
+          <li><a href="">Testimonial</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>       
+      </div>
+    </header>
+  <main>
     <div class="explore">
       <div class="exploreText">
         <h2>Explore Your Travel</h2>
@@ -34,22 +34,24 @@
         </p>
       </div>
       <div class="exploreBox">
-        <form action="">
-          <label for="where">Where</label>
-          <select name="When" id="when">
+        <ul>
+          <li><input class="exploreNav" type="text" placeholder="Where go" ></li>
+          <li>
+          <select class="exploreNav" name="When" id="when">
             <option disabled selected>When</option>
             <option value="Summer">Summer</option>
             <option value="Winter">Winter</option>
             <option value="Spring">Spring</option>
           </select>
-          <select name="type" id="type">
+        </li>
+        <li>
+          <select class="exploreNav" name="type" id="type">
             <option disabled selected>Select Type</option>
             <option value="Air">By Air</option>
             <option value="Road">By Road</option>
             <option value="Water">By Water</option>
           </select>
           <button class="findNow">find now</button>
-        </form>
       </div>
     </div>
 
@@ -95,7 +97,47 @@
             <h2>Newsletter</h2>
             <p>Get your daily dose of travel news & tips. Sign up today!</p>
             <hr>
-        </div>
+            <input type="text" placeholder="Enter your name" />
+            <input type="email" placeholder="Enter your email" />
+            <button>Subscribe</button>
+          </div>
+          <div class="lastImage">
+            <div class="lastText">
+              <h2>
+                mirajtravels.com
+              </h2>
+              <p>
+                Save up to 70%
+              </p>
+            </div>
+          </div>
+       
     </div>
+  </main>
+  <footer>
+    <ul>
+      <li>
+        <img src="./assets/Images/Group 40071 (2).png" style="width: 5%;" alt="">
+        <h2>Miraj <span style="color: orangered;" >Travels</span> </h2>
+      </li>
+      <li class="footerIcon" >
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+
+
+      </li>
+      <hr>
+      <li class="copyrights">
+        <h2>
+          Miraj Travels. All Rights Reserved.
+        </h2>
+      </li>
+    </ul>
+  </footer>
+    
+
+  
   </body>
 </html>
