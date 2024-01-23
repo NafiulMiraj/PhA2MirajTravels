@@ -212,6 +212,7 @@ p {
 }
 
 .image-container {
+  background-color: ;
   flex: 1;
   position: relative;
   color: white;
