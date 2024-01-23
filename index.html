@@ -10,138 +10,199 @@
   <body>
     <header>
       <nav>
-        <div class="headerSec">
-          <img src="./assets/Images/Group 40071 (2).png" style="width: 20% ; height: auto;" alt="">
-          <h1>Miraj <span style="color: orangered;">Travels</span></h1>
+        <div class="logo">
+          <img style="width: 20%;height: auto;" src="./assets/Images/logo.png" alt="" />
+          <h1>Miraj <span style="color: #ff5400">Travels</span></h1>
         </div>
-        <div class="hamburger">&#9778;</div>
-        <div class="navSec">
+        <div class="hamburger">&#9776;</div>
+        <div class="nav-items">
           <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Packages</a></li>
             <li><a href="">Testimonial</a></li>
             <li><a href="">Blog</a></li>
             <li><a href="">Contact</a></li>
-          </ul>       
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="explore">
+        <h1>Explore Your Travel</h1>
+        <p>
+          Embark on a journey where the horizon becomes your guide, each step a tale waiting to be told. Travel unveils the tapestry of the world, inviting you to explore the diverse cultures, landscapes, and the boundless wonders that await beyond familiar shores. 
+        </p>
+        <div class="explore-find">
+          <ul>
+            <li><input class="exptext" type="text" placeholder="Where go" /></li>
+            <li>
+              <select class="exptext" id="dropdown" name="place">
+                <option value="" disabled selected>When</option>
+                <option value="banana">Today</option>
+                <option value="orange">Tomorrow</option>
+                <option value="grape">Never</option>
+              </select>
+            </li>
+            <li>
+              <select class="exptext" id="dropdown" name="place">
+                <option value="" disabled selected>Select type</option>
+                <option value="banana">Today</option>
+                <option value="orange">Tomorrow</option>
+                <option value="grape">Never</option>
+              </select>
+            </li>
+            <li>
+              <button class="btn">Find Now</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- popular tours section -->
+      <div class="container">
+        <div class="text">
+          <h2>Our Popular Tours</h2>
+          <p>
+            Indulge in our most sought-after tours, each meticulously crafted to
+            offer unparalleled experiences. From the historical allure of European
+            cities to the exotic landscapes of Asia and the enchanting mysteries
+            of South America, our popular tours promise a tapestry of memories.
+            <ul style="list-style:circle;">
+                <li>     Wander through the majestic palaces of Istanbul, where East meets West
+                  in architectural splendor.</li>
+                <li>  Dive into the vibrant underwater world of the Great Barrier Reef, a
+                  kaleidoscope of marine life.</li>
+                <li> Experience the futuristic skyline of Dubai, a city of luxury and
+                  architectural innovation.</li>
+            </ul>
+           
+            These destinations will linger in your heart, weaving a tapestry of
+            memories. Whether captivated by history, nature, or urban
+            sophistication, our world is a kaleidoscope of experiences. Until we
+            meet again on another adventure, may the echoes of your travels
+            resonate with joy and discovery.
+          </p>
+          <div style="text-align: center;">
+            <button class="btn">Read More</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./assets/Images/popular.png" alt="popular" />
+        </div>
+      </div>
+
+      <!-- Destinations Sections -->
+
+      <div class="image-section">
+        <h2>Choose Your Destination</h2>
+        <p>
+          Elevate your journey with personalized itineraries and seamless experiences, because when it comes to exploration, we're your trusted compass.
+        </p>
+
+        <div class="row">
+          <div class="image-container">
+            <img src="./assets/Images/maldives.png" alt="Image 1" />
+            <div class="overlay">Maldives</div>
+          </div>
+
+          <div class="image-container">
+            <img src="./assets/Images/indonesia.png" alt="Image 2" />
+            <div class="overlay">Indonesia</div>
+          </div>
         </div>
 
-      </nav>
-      
-    </header>
-  <main>
-    <div class="explore">
-      <div class="exploreText">
-        <h2>Explore Your Travel</h2>
-        <p>
-          Embark on a journey where the horizon becomes your guide, each step a
-          tale waiting to be told.
-        </p>
-      </div>
-      <div class="exploreBox">
-        <ul>
-          <li><input class="exploreNav" type="text" placeholder="Where go" ></li>
-          <li>
-          <select class="exploreNav" name="When" id="when">
-            <option disabled selected>When</option>
-            <option value="Summer">Summer</option>
-            <option value="Winter">Winter</option>
-            <option value="Spring">Spring</option>
-          </select>
-        </li>
-        <li>
-          <select class="exploreNav" name="type" id="type">
-            <option disabled selected>Select Type</option>
-            <option value="Air">By Air</option>
-            <option value="Road">By Road</option>
-            <option value="Water">By Water</option>
-          </select>
-          <button class="findNow">find now</button>
-      </div>
-    </div>
+        <div class="row">
+          <div class="image-container">
+            <img src="./assets/Images/srilanka.png" alt="Image 3" />
+            <div class="overlay">Srilanka</div>
+          </div>
 
-    <div class="popular">
-      <div class="popularText">
-        <h2>Our Popular tour</h2>
-        <p>
-          Indulge in our most sought-after tours, each meticulously crafted to
-          offer unparalleled experiences. From the historical allure of European
-          cities to the exotic landscapes of Asia and the enchanting mysteries
-          of South America, our popular tours promise a tapestry of memories.
-        </p>
-        <ul>
-          Wander through the majestic palaces of Istanbul, where East meets West
-          in architectural splendor.
-        </ul>
-        <ul>
-          Dive into the vibrant underwater world of the Great Barrier Reef, a
-          kaleidoscope of marine life.
-        </ul>
-        <ul>
-          Experience the futuristic skyline of Dubai, a city of luxury and
-          architectural innovation.
-        </ul>
-        <p>
-          These destinations will linger in your heart, weaving a tapestry of
-          memories. Whether captivated by history, nature, or urban
-          sophistication, our world is a kaleidoscope of experiences. Until we
-          meet again on another adventure, may the echoes of your travels
-          resonate with joy and discovery.
-        </p>
-        <button class="popularButton">
-            Read More
-          </button>
-      </div>
-      <div class="popularImage">
-        <img src="./assets/Images/Rectangle 4.png" alt="Hills">
+          <div class="image-container">
+            <img style="height:280px;" src="./assets/Images/northamerica.png" alt="Image 4" />
+            <div class="overlay">North America</div>
+          </div>
 
+          <div class="image-container">
+            <img style="height:280px;" src="./assets/Images/kashmir.png" alt="Image 5" />
+            <div class="overlay">Kashmir</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="image-container">
+            <img style="height:280px;" src="./assets/Images/bangladesh.png" alt="Image 6" />
+            <div class="overlay">Bangladesh</div>
+          </div>
+
+          <div class="image-container">
+            <img style="height:280px;" src="./assets/Images/bandarban.png" alt="Image 7" />
+            <div class="overlay">Bandarban</div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="last">
-        <div class="newsletter">
-            <h2>Newsletter</h2>
-            <p>Get your daily dose of travel news & tips. Sign up today!</p>
+
+      <!-- Why Choose Us Section -->
+      <div class="choose">
+        <h3>Why Choose Us</h3>
+        <p>
+          Elevate your journey with personalized itineraries and seamless experiences, because when it comes to exploration, we're your trusted compass.
+        </p>
+
+        <div
+          style="display: flex; justify-content: space-between; margin: 30px"
+        >
+          <div class="b">
+            <i class="fa-solid fa-hotel"></i>
+            <h5>Handpicked Hotels</h5>
+            <p>
+              Indulge in unparalleled luxury with our handpicked hotels, where each establishment is a curated masterpiece of comfort and sophistication. We meticulously select accommodations that redefine hospitality, ensuring your stay is a seamless blend of elegance and unforgettable experiences.
+            </p>
+          </div>
+          <div class="bb">
+            <i class="fa-solid fa-map"></i>
+            <h5>World Class Service</h5>
+            <p>
+              Experience the epitome of world-class service, where every detail is curated with precision and every moment is crafted to exceed expectations. Our commitment to excellence ensures a journey of unparalleled luxury and satisfaction.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="bbb">
+            <i class="fa-solid fa-tag"></i>
+            <h5>Best Price Guarantee</h5>
+            <p>
+              Unlock unbeatable savings with our travel agency's commitment to offering the best prices. Your dream getaway shouldn't break the bank - we ensure budget-friendly options without compromising on the quality of your travel experience.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+ <!-- footer   -->
+
+    <footer>
+        <ul >
+            <li">
+                <img style="width: 5%;" src="./assets/Images/logo.png" alt="Logo">
+                <h1>Miraj <span style="color: #ff5400;">Travels</span></h1>
+            </li>
+            <p>Discover the World with Miraj Travels. <br> Your Gateway to Unforgettable Adventures.</p>
+           
+            <li class="social-icons">
+              <a href=""><i class="fa-brands fa-twitter" style="color: black;"></i></a>
+              <a href=""><i class="fa-brands fa-facebook" style="color: black;"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"  style="color: black;"></i></a>
+              <a href=""><i class="fa-brands fa-github" style="color: black;"></i></a>
+            </li>
+
             <hr>
-            <input type="text" placeholder="Enter your name" />
-            <input type="email" placeholder="Enter your email" />
-            <button>Subscribe</button>
-          </div>
-          <div class="lastImage">
-            <div class="lastText">
-              <h2>
-                mirajtravels.com
-              </h2>
-              <p>
-                Save up to 70%
-              </p>
-            </div>
-          </div>
-       
-    </div>
-  </main>
-  <footer>
-    <ul>
-      <li>
-        <img src="./assets/Images/Group 40071 (2).png" style="width: 5%;" alt="">
-        <h2>Miraj <span style="color: orangered;" >Travels</span> </h2>
-      </li>
-      <li class="footerIcon" >
-        <a href=""><i class="fa-brands fa-twitter"></i></a>
-        <a href=""><i class="fa-brands fa-facebook"></i></a>
-        <a href=""><i class="fa-brands fa-instagram"></i></a>
-        <a href=""><i class="fa-brands fa-github"></i></a>
+            <li class="copyright">
+                <p> Miraj Travels. All Rights Reserved. </p>
+            </li>
+        </ul>
+    </footer>
 
 
-      </li>
-      <hr>
-      <li class="copyrights">
-        <h2>
-          Miraj Travels. All Rights Reserved.
-        </h2>
-      </li>
-    </ul>
-  </footer>
-    
-
-  
   </body>
-</html>
+  </html>
